@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+/* ===== ZenCro Design System — Light Professional Theme ===== */
+
+:root {
+  /* Primary palette */
+  --zc-primary: #1677E8;
+  --zc-primary-dark: #1260C4;
+  --zc-primary-light: #EAF3FC;
+  --zc-primary-50: #F0F7FF;
+
+  /* Navy / text */
+  --zc-navy: #082C50;
+  --zc-text: #163452;
+  --zc-text-secondary: #71869C;
+  --zc-text-muted: #9EAFC2;
+
+  /* Surfaces */
+  --zc-bg: #F3F8FD;
+  --zc-surface: #FFFFFF;
+  --zc-border: #DCE8F3;
+  --zc-border-light: #E8EFF8;
+
+  /* Status colors */
+  --zc-success: #22C55E;
+  --zc-success-bg: #F0FDF4;
+  --zc-warning: #F59E0B;
+  --zc-warning-bg: #FFFBEB;
+  --zc-danger: #EF4444;
+  --zc-danger-bg: #FEF2F2;
+  --zc-info: #3B82F6;
+  --zc-info-bg: #EFF6FF;
+
+  /* Shadows */
+  --zc-shadow-sm: 0 1px 2px 0 rgba(8, 44, 80, 0.04);
+  --zc-shadow: 0 1px 3px 0 rgba(8, 44, 80, 0.06), 0 1px 2px -1px rgba(8, 44, 80, 0.06);
+  --zc-shadow-md: 0 4px 6px -1px rgba(8, 44, 80, 0.06), 0 2px 4px -2px rgba(8, 44, 80, 0.04);
+
+  /* Radii */
+  --zc-radius: 8px;
+  --zc-radius-lg: 12px;
+  --zc-radius-xl: 16px;
+}
+
+body {
+  background-color: var(--zc-bg);
+  color: var(--zc-text);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom scrollbar for data tables and panels */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
